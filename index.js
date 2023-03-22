@@ -22,13 +22,13 @@ mongoose.connect(MONGOURI,{
 }).catch((err)=>{
     console.log("err in connection",err);
 })
-
-
-
-
-
-
 app.use('/', Router);
+
+
+
+
+
+
 
 // if(process.env.NODE_ENV === "production"){
 //     app.use(express.static("client/build"))
