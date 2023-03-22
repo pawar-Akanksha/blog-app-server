@@ -6,7 +6,7 @@ import { newComment, getComments, deleteComment } from '../controller/comment-co
 import { loginUser, singupUser, logoutUser } from '../controller/user-controller.js';
 import { authenticateToken, createNewToken } from '../controller/jwt-controller.js';
 
-import upload from '../utils/upload.js';
+import upload from '../utils/upload.js'
 
 const router = express.Router();
 
